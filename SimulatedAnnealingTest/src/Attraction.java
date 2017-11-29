@@ -1,6 +1,3 @@
-import lombok.Data;
-
-@Data
 public class Attraction {
 
     private int x;
@@ -74,6 +71,10 @@ public class Attraction {
             return publicPriceMat[this.x][attraction.x];
         else
             return 0.00;
+    }
+
+    public int getX() {
+        return x;
     }
 
     public static void main(String[] args) {

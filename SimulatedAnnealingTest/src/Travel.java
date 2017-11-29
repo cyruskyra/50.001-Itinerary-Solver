@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-import lombok.Data;
-
-@Data
 public class Travel {
 
     private ArrayList<Attraction> travel = new ArrayList<>();
@@ -78,4 +75,7 @@ public class Travel {
         return price;
     }
 
+    public ArrayList<Attraction> getTravel() {
+        return travel;
+    }
 }
